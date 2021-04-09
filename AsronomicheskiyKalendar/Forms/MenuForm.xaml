@@ -1,0 +1,27 @@
+﻿<Window x:Class="AsronomicheskiyKalendar.Forms.MenuForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsronomicheskiyKalendar.Forms"
+        mc:Ignorable="d"
+        Title="MenuForm" Height="450" Width="800">
+    <Grid>
+        <StackPanel  Grid.Row="1" Grid.Column="1">
+
+            <Button Margin="10,10,10,10" 
+                    Content="Виды звездопадов" 
+                        Height="35" x:Name="btStarfalls" Click="btStarfalls_Click" />
+            <Button Margin="10,10,10,10"  Height="35" Content="Виды Луны" 
+                    x:Name="btMoonType" Click="btMoonType_Click"/>
+            <Button Margin="10,10,10,10"  Height="35" Content="Виды затмений" 
+                    x:Name="btEclipses" Click="btEclipses_Click"/>
+            <Button Margin="10,10,10,10"  Height="35" Content="Планеты" 
+                    x:Name="btPlanet" Click="btPlanet_Click"/>
+            <Button Margin="10,10,10,10"  Height="35" Content="Длительность дня и ночи" 
+                    x:Name="btLenghtDayNight" Click="btLenghtDayNight_Click"/>
+            <Button Margin="10,10,10,10"  Height="35" Content="Календарь астрономических наблюдений на 2021 год" 
+                    x:Name="btAstronomicalObservation" Click="btAstronomicalObservation_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

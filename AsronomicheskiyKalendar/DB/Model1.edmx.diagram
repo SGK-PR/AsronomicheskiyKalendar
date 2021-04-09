@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="298ac4c7d690479d95c881ea2b4640a2" Name="Diagram1">
+        <EntityTypeShape EntityType="DashaModel.AstronomicalObservations" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.Eclipses" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.LengthOfDayAndNight" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.MoonType" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.Starfalls" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DashaModel.VisibilityOfPlanets" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="DashaModel.FK_AstronomicalObservations_Eclipses" ManuallyRouted="false" />
+        <AssociationConnector Association="DashaModel.FK_AstronomicalObservations_LengthOfDayAndNight" ManuallyRouted="false" />
+        <AssociationConnector Association="DashaModel.FK_AstronomicalObservations_MoonType" ManuallyRouted="false" />
+        <AssociationConnector Association="DashaModel.FK_AstronomicalObservations_Starfalls" ManuallyRouted="false" />
+        <AssociationConnector Association="DashaModel.FK_AstronomicalObservations_VisibilityOfPlanets" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
